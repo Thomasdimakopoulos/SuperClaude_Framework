@@ -56,7 +56,6 @@ venv.bak/
 .venv/
 
 # IDEs and editors
-.vscode/
 .idea/
 *.swp
 *.swo
@@ -134,8 +133,6 @@ site/
 .temp/
 
 # Security & API Keys
-.env
-.env.local
 .env.*.local
 .pypirc
 secrets/
@@ -178,3 +175,4 @@ TODO.txt
 # Development artifacts (should not be in repo)
 package-lock.json
 uv.lock
+config.bat
